@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Leaf</title>
+    <link rel="stylesheet" href="Css/style.css">
+    <link rel="icon" type="image/icon" href="images/logo3.png">
+</head>
+<body>
+    <!--Inline CSS-->
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+         }
+    </style>
+<!--Logo-->
+ <div class="design" >
+    <img src="../images/logo3.png" class="lol"> 
+   <!--Navigation Bar-->
+        <nav>
+                <ul>
+                <li><a href="index.html">Home</index></a></li>
+                <li><a href="Html/product.html">Products</a></li>
+                <li><a href="Html/about.html">About Us</a></li>
+                <li><a href="Html/contactus.html">Contact Us</a></li>
+                </ul>
+        </nav>
+     </div>
+     <!--Our Website Tittle-->
+     <div class="mean">
+        <h1> LITTLE LEAF</h1>
+     </div>
+     <div class="paragraph">
+        <p> Bonsai plants nurture your relationships and give an opporunity to beauty their windows at the same time.At Little Leaf, you will come across beautifully cultivated bonsai like Cherry,Ficus,Bougaincillea,
+            etc. Planted in beautiful pots which you can presents to anyone an any occasion.</p>
+     </div>
+ 
+     <!--Search Bar-->
+  <div class="main">
+    <input type="Search" placeholder="Search My Store"  class="type">
+  </div>
+  <div class="heading">
+    <h1>Best Bonsai Plant From Little Leaf</h1>
+  </div>
+   <!-- First Row of product section -->
+   <section class="product-container">
+    <div class="product-detail bgn-white">
+        <div class="image-section">
+            <img src="../images/Cherry.png">
+        </div>
+        <div class="title-section bgn-white">Cherry</div>
+        <p>Original price:<strike>$180.00</strike></p>
+        <p>Discounted price:$130</p>
+            <a href="#" class="buy" onclick="openPopup()">Buy Now</a>
+        </div>
+    </div>
+    <div class="product-detail bgn-white">
+        <div class="image-section">
+            <img src="../images/Bougainvillea.png" alt="Bougainvillea" />
+        </div>
+        <div class="title-section bgn-white">Bougainvillea</div>
+
+        <p>Original price:<strike>$120</strike></p>
+        <P>Discounted price:$110</p>  
+          <a href="#" class="buy" onclick="openPopup()">Buy Now</a>
+        </div>
+    </div>
+    <div class="product-detail bgn-white">
+        <div class="image-section">
+            <img src="../images/Chinese elm.png" alt="Chinese elm" />
+        </div>
+        <div class="title-section bgn-white">Chinese Elm</div>
+
+        <p>Original price:<strike>$100.99</strike></p>
+        <p>Discounted price:$90</p>
+            <a href="#" class="buy" onclick="openPopup()">Buy Now</a>
+        </div>
+    </div>
+    <div class="product-detail bgn-white">
+        <div class="image-section">
+            <img src="../images/dwarf jade.png" alt="dwarf jade" />
+        </div>
+        <div class="title-section bgn-white">Dwarf Jade</div>
+
+        <p>Original price:<strike>$140.99</strike></p>
+        <p>Discounted price:$120</p>
+        
+            <a href="#" class="buy" onclick="openPopup()">Buy Now</a>
+        </div>
+    </div>
+    <div class="product-detail bgn-white">
+      <div class="image-section">
+          <img src="../images/Ficus.png" alt="Ficus" />
+      </div>
+      <div class="title-section bgn-white">Ficus</div>
+
+      <p>Original price:<strike>$160.99</strike></p>
+      <p>Discounted price:$130.99</p>
+          <a href="#" class="buy" onclick="openPopup()">Buy Now</a>
+      </div>
+  </div>
+ 
+</section>
+<!-- Footer Start From Here-->
+<div class="footer">
+  <div class="col-1">
+  <h3> USEFULL LINKS</h3>
+  <a href="index.html">Home</index></a>
+  <a href="Html/product.html">Products</a>
+  <a href="Html/about.html">About Us</a>
+    
+</div>
+<div class="col-2">
+    <h3>NEWSLETTER</h3>
+    <form>
+        <input type="email" placeholder="Your Email Address" required>
+        <br>
+        <buttom type="submit">SUBSCIBR NOW</buttom>
+    </form>
+</div>
+<div class="col-3">
+    <h3>Contact Us</h3>
+    <p>Kathmandu,Kamalphokhari,Little Leaf<br>
+       littleleaf@gmail.com
+                   
+    </p>    
+</div>
+</div>
+<!--Popup For Buy Now-->
+<div class="room">
+      <div class="popup" id="popup">
+      <h2> Thank You</h2>
+      <p> Your details has been sucessfully
+        <br> submitted.  Thanks </p>
+      <button type="buttom" onclick="closePopup()">OK</button>
+
+    </div>
+</div>
+<script>
+    let popup = document.getElementById("popup");
+
+    function openPopup(){
+        popup.classList.add("open-popup");
+   }
+   
+   function closePopup(){
+        popup.classList.remove("open-popup");
+   }
+</script>    
+</body>
+</html>

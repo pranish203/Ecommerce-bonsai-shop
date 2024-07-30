@@ -1,0 +1,179 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/*Give Style to Nagivation bar and Logo*/
+.design
+{
+     width: 1685px;
+     height: 125px;
+     background-color: #dcdcdc;
+}
+
+ul
+{ 
+    float: right;
+    list-style-type: none;
+    margin-top: 50px;
+}
+
+ul li{
+    display: inline-block;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 20px 60px;
+    border:1px solid transparent;
+    transition: 0.6s ease;
+    text-align: center;
+    background-color: transparent;
+    font-size: 20px;
+    
+}
+
+ul li :hover {
+    background-color: grey;
+}
+
+.lol
+{
+    width:180px;
+    height: auto;
+    position: absolute;
+    top:8px;
+    
+}
+    
+/*Style to Heading Research*/
+.Headingone{
+    height: 80px;
+    width: 1550px;
+    background-color: lightskyblue;
+    text-align: center;
+    color: aliceblue;
+    margin-top: 30px;
+    margin: 10px;
+    padding: 20px;
+    padding-right: 100px;
+    
+ 
+}
+
+/*Style to image*/
+.DV
+{
+    width: 780px;
+    height: 450px;
+    margin-top: 100px;
+    padding: 20px;
+    float: right;
+    left: 10px;
+}
+ 
+/*Style to Homepage, Little Leaf , Eastern leaf with image and  link*/
+.BC{
+    
+    text-align: center;
+    color: black;
+    padding: 20px;
+    position: absolute;
+    top: 300px;
+    left: 750px;
+    
+
+}
+
+.graph{
+    position: absolute;
+    top: 850px;
+    left: 380px;
+    font-size: 25px;
+
+}
+
+.graph2
+{
+    position: absolute;
+    top: 850px;
+    left: 1250px;
+    font-size: 25px;
+}
+
+img{
+width: 750px;
+height: 450px;
+}
+
+/*Styling footer from here*/
+.footer
+{
+    position: absolute;
+    top: 3300px;
+    width: 1180px;
+    height: 180px;
+    padding: 100px 15%;
+    background: #dcdcdc;
+    color: #000;
+    display:flex;
+    
+}
+
+.footer div{
+    text-align: center;;
+}
+.col-2
+{
+    flex-grow: 2;
+}
+
+.footer div h3
+{
+   font-weight: 300;
+   margin-bottom: 30px;
+   letter-spacing: 1px;
+}
+
+.col-1 a
+{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    margin-top: 10px;
+    font-size: 20px;
+
+}
+
+col-3 a
+{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+form input
+{
+    width: 400px;
+    height: 45px;
+    border-radius:4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+
+form buttom
+{
+    background:transparent;
+    border: 2px solid #fff;
+    border-radius:30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}

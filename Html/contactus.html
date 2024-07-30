@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact us form validation using Javascript</title>
+        <link rel="stylesheet" href="../Css/styleCU.css">
+        <script src="../Java/script.js"></script>
+        
+    </head>
+    <body>
+        <div class="design" >
+            <img src="../images/logo3.png" class="lol">
+           <!--Navigation Bar-->
+                <nav>
+                        <ul>
+                            <li><a href="../index.html">Home</index></a></li>
+                            <li><a href="../Html/product.html">Products</a></li>
+                            <li><a href="../Html/about.html">About Us</a></li>
+                            <li><a href="../Html/contactus.html">Contact Us</a></li>
+                        </ul>
+                </nav>
+             </div>
+
+             <div class="wrapper">
+                <h2>Contact Us</h2>
+                <div id="error_message"></div>
+    
+                <form onsubmit="return validate()">
+                    <div class="input_field">
+                        <input type="text" placeholder="Name" id="name">
+                    </div>
+                    <div class="input_field">
+                        <input type="text" placeholder="Subject" id="subject">
+                    </div>
+                    <div class="input_field">
+                        <input type="text" placeholder="Phone" id="phone">
+                    </div>
+                    <div class="input_field">
+                        <input type="email" placeholder="Email" id="email" style="height: 40px;" size="38" required>
+                    </div>
+                    <div class="input_field">
+                       <textarea id="message" placeholder="Message"></textarea>
+                    </div>
+                    <div class="btn">
+                        <input type="submit">
+                    </div>
+    
+                </form>
+            </div>
+            
+            <div class="footer">
+                <div class="col-1">
+                <h3> USEFULL LINKS</h3>
+                 
+                <a href="../index.html">Home</index></a>
+                <a href="../Html/product.html">Products</a>
+                <a href="../Html/Research.html">Research</a>
+                <a href="../html/blog.html">Blog</a>
+                <a href="../Html/about.html">About Us</a>
+              </div>
+              <div class="col-2">
+                  <h3>NEWSLETTER</h3>
+                  <form>
+                      <input type="email" placeholder="Your Email Address" required>
+                      <br>
+                      <buttom type="submit">SUBSCIBR NOW</buttom>
+                  </form>
+              </div>
+              <div class="col-3">
+                  <h3>Contact Us</h3>
+                  <p>Kathmandu,Kamalphokhari,Little Leaf<br>
+                     littleleaf@gmail.com
+                                 
+                  </p>    
+              </div>
+              </div>
+                     
+      </p>    
+  </div>
+  </div>
+    </body>
+</html>
